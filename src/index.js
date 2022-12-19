@@ -19,7 +19,7 @@ var url = require('url');
 var extend = require('node.extend');
 var enableMiddlewareShorthand = require('./enableMiddlewareShorthand');
 var mockMiddle = require('./mock');
-var isarray = require('isarray');
+var isarray = Array.isArray;
 
 
 module.exports = function(options) {
